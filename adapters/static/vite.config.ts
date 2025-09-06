@@ -12,7 +12,7 @@ export default extendConfig(baseConfig, () => {
     },
     plugins: [
       staticAdapter({
-        origin: "https://sergeigolos.github.io",
+        origin: "https://masterblend.golos.work",
       }),
     ],
   };

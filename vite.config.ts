@@ -21,7 +21,7 @@ errorOnDuplicatesPkgDeps(devDependencies, dependencies);
 
 export default defineConfig(({ command, mode }): UserConfig => {
   return {
-    base: process.env.GITHUB_ACTIONS ? '/masterblend-concentrate/' : '/',
+    base: '/',
     plugins: [
       qwikCity(),
       qwikVite(),
